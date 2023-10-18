@@ -2,7 +2,8 @@
 
 
 ## Prerequisite
-Make sure you have installed python3 on your local machine.
+1. Make sure you have installed python3 on your local machine.
+2. Make sure you have OPEN_AI_KEY
 
 ## Steps
 ### Clone the repository
@@ -36,6 +37,17 @@ Windows
 ```
 .venv\Scripts\activate
 ```
+
+### Create .env file
+Mac Os
+```
+touch .env
+```
+
+### Insert OPENAI Key
+```
+OPENAI_API_KEY=YOUR_API_KEY
+``` 
 
 ### Install required dependencies
 ```
